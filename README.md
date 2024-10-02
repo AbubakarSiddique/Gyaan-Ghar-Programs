@@ -4,6 +4,6 @@ This repository contains basic programs written in multiple programming language
 
 ## Languages Covered
 
-- C++
+- [C++](./C++/README.md)
 - Python (To be added)
 - Java (To be added)
