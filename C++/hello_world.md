@@ -1,27 +1,64 @@
-# Hello World
+# Hello World Program
 
-## Youtube Tutorial (in Assamese)
+## Description
+This program is a simple "Hello, World!" example, which serves as the first introduction to any programming language.
+
+## YouTube Tutorial (in Assamese)
 
 [![Watch the video](https://img.youtube.com/vi/Od46XaGmf6g/0.jpg)](https://www.youtube.com/watch?v=Od46XaGmf6g)
 
-## Description
-This is the simplest program written in any programming language. It prints "Hello, World!" to the console. This program is often used as a beginner's first introduction to a new language.
-
 ## Code
 ```cpp
+// Program to print "Hello, World!"
 #include <iostream>
 using namespace std;
 
-int main() {
+int main()
+{
     cout << "Hello, World!" ;
     return 0;
 }
 ```
 
+## Output
+After running the program, the output will be:
+```
+Hello, World!
+```
+
 ## Explanation
 
-1. `#include <iostream>`: This line includes the standard input/output stream library, which allows us to use `cout`.
-2. `using namespace std;`: This line allows us to use standard library functions without needing to prefix them with `std::`.
-3. `int main() {}`: This is the main function where program execution begins.
-4. `cout << "Hello, World!"`: This line prints "Hello, World!" to the console using the `cout` stream.
-5. `return 0;`: This indicates that the program ended successfully.
+1. **Including the Input/Output Stream Library**:
+   ```cpp
+   #include <iostream>
+   ```
+   This line includes the input/output stream library, which provides functionalities for reading from input and writing to output.
+
+2. **Using the Standard Namespace**:
+   ```cpp
+   using namespace std;
+   ```
+   This statement allows us to use names from the standard library without needing to prefix them with `std::`, simplifying the code.
+
+3. **Main Function Definition**:
+   ```cpp
+   int main() {
+       // Code body
+   }
+   ```
+   This is the main function where the execution of the program begins.
+
+4. **Outputting "Hello, World!"**:
+   ```cpp
+   cout << "Hello, World!" ;
+   ```
+   This line prints the string "Hello, World!" to the console.
+
+5. **Ending the Program**:
+   ```cpp
+   return 0;
+   ```
+   This indicates that the program has executed successfully and terminates.
+
+## Conclusion
+In this tutorial, we learned how to create a simple C++ program that prints "Hello, World!" to the console. This example helps introduce the basic structure of a C++ program and its syntax.

@@ -29,16 +29,37 @@ int main()
     return 0;
 }
 ```
+
+## Output
+After running the program, if the user enters `5` and `3`, the output will be:
+```
+Enter first value: 5
+Enter second value: 3
+The sum of the given values: 8
+```
+
 ## Explanation
 
-1. **`#include <iostream>`**  
+1. **Including the Input/Output Stream Library**:
+   ```cpp
+   #include <iostream>
+   ```
    This line includes the input/output stream library, which provides functionalities for reading from input and writing to output.
 
-2. **`using namespace std;`**  
-   This statement allows us to use names from the standard library without needing to prefix them with `std::`, simplifying the code.
+2. **Using the Standard Namespace**:
+   ```cpp
+   using namespace std;
+   ```
+   This statement allows us to use names from the standard library without needing to prefix them with `std::`. It simplifies the code.
 
-3. **`int main() {}`**  
-   This is the main function where the execution of the program begins. Every C++ program must have a `main` function.
+3. **Defining the Main Function**:
+   ```cpp
+   int main()
+   {
+        //Code body
+   }
+   ```
+   This is the main function where the execution of the program begins.
 
 4. **Variable Declarations**  
    ```C++
@@ -90,3 +111,6 @@ int main()
     return 0;
     ```
     This indicates that the program has executed successfully, signaling the end of the `main` function.
+
+## Conclusion
+In this tutorial, we learned how to create a simple C++ program to add two numbers. This program illustrates fundamental concepts such as user input, arithmetic operations, and output display. Understanding these basics is essential as we progress to more complex programming tasks.
