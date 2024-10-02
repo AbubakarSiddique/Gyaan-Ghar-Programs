@@ -9,7 +9,7 @@ This program takes two numbers as input from the user and calculates their sum. 
 
 ## Code
 ```cpp
-// WAP to print the sum of two values 
+// WAP to print the sum of two numbers 
 #include <iostream>
 using namespace std;
 
@@ -29,67 +29,6 @@ int main()
     return 0;
 }
 ```
-
-## Explanation
-
-1.  ```
-        #include <iostream>
-    ```
-    This line includes the input/output stream library, which provides functionalities for reading from input and writing to output.
-
-```
-using namespace std;
-```
-This statement allows us to use names from the standard library without needing to prefix them with `std::`. It simplifies the code.
-
-```
-int main() {}
-```
-This is the main function where the execution of the program begins. Every C++ program must have a `main` function.
-
-```
-int num1, num2, sum;
-```
-Here, we declare three integer variables:
-- `num1`: to store the first input value.
-- `num2`: to store the second input value.
-- `sum`: to store the calculated sum of the two values.
-
-```
-cout << "Enter first value: ";
-```
-This line prompts the user to input the first value, providing clarity on what is expected.
-
-```
-cin >> num1;
-```
-This line reads the user's input for the first value and stores it in the variable `num1`.
-
-```
-cout << "Enter second value: ";
-```
-Similarly, this line prompts the user to input the second value.
-
-```
-cin >> num2;
-```
-This line captures the second value entered by the user and stores it in `num2`.
-
-```
-sum = num1 + num2;
-```
-This line calculates the sum of the two input values and assigns the result to the variable `sum`.
-
-```
-cout << "The sum of the given values: " << sum << endl;
-```
-This line outputs the result to the console, displaying the sum in a user-friendly format.
-
-```
-return 0;
-```
-This indicates that the program has executed successfully. It signals the end of the `main` function.
-
 ## Explanation
 
 1. **`#include <iostream>`**  
@@ -102,7 +41,7 @@ This indicates that the program has executed successfully. It signals the end of
    This is the main function where the execution of the program begins. Every C++ program must have a `main` function.
 
 4. **Variable Declarations**  
-   ```
+   ```C++
    int num1, num2, sum;
    ```
    Here, we declare three integer variables:
@@ -111,52 +50,43 @@ This indicates that the program has executed successfully. It signals the end of
    - **`sum`**: to store the calculated sum of the two values.
 
 5. **Input Prompting**  
-   ```
+   ```C++
    cout << "Enter first value: ";
    ```
    This line prompts the user to input the first value, providing clarity on what is expected.
 
 6. **Reading User Input**  
-   ```
+   ```C++
    cin >> num1;
    ```
    This line reads the user's input for the first value and stores it in the variable `num1`.
 
 7. **Continuing Input Prompting**  
-   ```
+   ```C++
    cout << "Enter second value: ";
    ```
    Similarly, this line prompts the user to input the second value.
 
 8. **Reading the Second Input**  
-   ```
+   ```C++
    cin >> num2;
    ```
    This line captures the second value entered by the user and stores it in `num2`.
 
 9. **Calculating the Sum**  
-   ```
+   ```C++
    sum = num1 + num2;
    ```
    This line calculates the sum of the two input values and assigns the result to the variable `sum`.
 
 10. **Outputting the Result**  
-   ```
-   cout << "The sum of the given values: " << sum << endl;
-   ```
-   This line outputs the result to the console, displaying the sum in a user-friendly format.
+    ```C++
+    cout << "The sum of the given values: " << sum << endl;
+    ```
+    This line outputs the result to the console, displaying the sum in a user-friendly format.
 
 11. **Ending the Program**  
-   ```
-   return 0;
-   ```
-   This indicates that the program has executed successfully, signaling the end of the `main` function.
-
-```mermaid
-flowchart TD
-    A([Start]) --> B{Check Condition}
-    B -- Yes --> C[Execute Code A]
-    B -- No --> D[Execute Code B]
-    C --> E([End])
-    D --> E
-```
+    ```C++
+    return 0;
+    ```
+    This indicates that the program has executed successfully, signaling the end of the `main` function.
