@@ -1,70 +1,162 @@
-# C++ Programs
+# Sum of Two Numbers
 
-This folder contains basic programs written in C++. Each program is designed to help beginners understand fundamental C++ concepts.
+## Description
+This program takes two numbers as input from the user and calculates their sum. It serves as a fundamental example for beginners learning to handle user input and perform basic arithmetic operations.
 
+## YouTube Tutorial (in Assamese)
 
-## English
+[![Watch the video](https://img.youtube.com/vi/vLPA5-UDUlk/0.jpg)](https://www.youtube.com/watch?v=vLPA5-UDUlk)
 
-### Table of Programs
-1. [Hello World](#hello-world)
-2. [Area of Circle](#area-of-circle)
-
----
-
-### Hello World
-
-#### Description
-This is the simplest program written in any programming language. It prints "Hello, World!" to the console.
-
-#### Code
+## Code
 ```cpp
+// WAP to print the sum of two values 
 #include <iostream>
 using namespace std;
 
-int main() {
-    cout << "Hello, World!" << endl;
+int main()
+{
+    int num1, num2, sum;
+    
+    cout << "Enter first value: ";
+    cin >> num1;
+    cout << "Enter second value: ";
+    cin >> num2;
+    
+    sum = num1 + num2;
+    
+    cout << "The sum of the given values: " << sum << endl;
+    
     return 0;
 }
 ```
 
-#### Explanation
-1. `#include <iostream>`: Includes the standard input/output stream library.
-2. `using namespace std;`: Allows using standard library functions without the `std::` prefix.
-3. `int main() {}`: The main function where program execution begins.
-4. `cout << "Hello, World!"`: Prints "Hello, World!" to the console.
-5. `return 0;`: Indicates successful program termination.
+## Explanation
 
----
+1.  ```
+        #include <iostream>
+    ```
+    This line includes the input/output stream library, which provides functionalities for reading from input and writing to output.
 
-## Assamese
-
-### কাৰ্যসূচীৰ তালিকা
-1. [হেল্লো বিশ্ব](#হেল্লো-বিশ্ব)
-2. [বৃত্তৰ ক্ষেত্ৰফল](#বৃত্তৰ-ক্ষেত্ৰফল)
-
----
-
-### হেল্লো বিশ্ব
-
-#### বৰ্ণনা
-এইটো যিকোনো প্ৰোগ্ৰামিং ভাষাৰ সৰ্বনিম্ন সাধাৰণ প্ৰোগ্ৰাম। এইটো কনচলে "Hello, World!" মুদ্রণ কৰে।
-
-#### কোড
-```cpp
-#include <iostream>
-using namespace std;
-
-int main() {
-    cout << "Hello, World!" << endl;
-    return 0;
-}
 ```
+using namespace std;
+```
+This statement allows us to use names from the standard library without needing to prefix them with `std::`. It simplifies the code.
 
-#### বিৱৰণ
-1. `#include <iostream>`: <br>মানৱ প্ৰৱাহৰ গ্ৰন্থাগাৰ অন্তর্ভুক্ত কৰে।<br><br>
-2. `using namespace std;`: <br>`std::` পূৰ্বৰেখা ব্যৱহাৰ নকৰাকৈ মানৱ গ্ৰন্থাগাৰ কাৰ্য্যবোৰ ব্যৱহাৰ কৰিবলৈ অনুমতি দিয়ে।
-3. `int main() {}`: য'ত কাৰ্যসূচীৰ কাৰ্য্য আৰম্ভ হয়।
-4. `cout << "Hello, World!"`: কনচলে "Hello, World!" মুদ্রণ কৰে।
-5. `return 0;`: সফলভাবে কাৰ্যসূচী শেষ হৈছে বুলি নির্দেশ কৰে।
+```
+int main() {}
+```
+This is the main function where the execution of the program begins. Every C++ program must have a `main` function.
 
----
+```
+int num1, num2, sum;
+```
+Here, we declare three integer variables:
+- `num1`: to store the first input value.
+- `num2`: to store the second input value.
+- `sum`: to store the calculated sum of the two values.
+
+```
+cout << "Enter first value: ";
+```
+This line prompts the user to input the first value, providing clarity on what is expected.
+
+```
+cin >> num1;
+```
+This line reads the user's input for the first value and stores it in the variable `num1`.
+
+```
+cout << "Enter second value: ";
+```
+Similarly, this line prompts the user to input the second value.
+
+```
+cin >> num2;
+```
+This line captures the second value entered by the user and stores it in `num2`.
+
+```
+sum = num1 + num2;
+```
+This line calculates the sum of the two input values and assigns the result to the variable `sum`.
+
+```
+cout << "The sum of the given values: " << sum << endl;
+```
+This line outputs the result to the console, displaying the sum in a user-friendly format.
+
+```
+return 0;
+```
+This indicates that the program has executed successfully. It signals the end of the `main` function.
+
+## Explanation
+
+1. **`#include <iostream>`**  
+   This line includes the input/output stream library, which provides functionalities for reading from input and writing to output.
+
+2. **`using namespace std;`**  
+   This statement allows us to use names from the standard library without needing to prefix them with `std::`, simplifying the code.
+
+3. **`int main() {}`**  
+   This is the main function where the execution of the program begins. Every C++ program must have a `main` function.
+
+4. **Variable Declarations**  
+   ```
+   int num1, num2, sum;
+   ```
+   Here, we declare three integer variables:
+   - **`num1`**: to store the first input value.
+   - **`num2`**: to store the second input value.
+   - **`sum`**: to store the calculated sum of the two values.
+
+5. **Input Prompting**  
+   ```
+   cout << "Enter first value: ";
+   ```
+   This line prompts the user to input the first value, providing clarity on what is expected.
+
+6. **Reading User Input**  
+   ```
+   cin >> num1;
+   ```
+   This line reads the user's input for the first value and stores it in the variable `num1`.
+
+7. **Continuing Input Prompting**  
+   ```
+   cout << "Enter second value: ";
+   ```
+   Similarly, this line prompts the user to input the second value.
+
+8. **Reading the Second Input**  
+   ```
+   cin >> num2;
+   ```
+   This line captures the second value entered by the user and stores it in `num2`.
+
+9. **Calculating the Sum**  
+   ```
+   sum = num1 + num2;
+   ```
+   This line calculates the sum of the two input values and assigns the result to the variable `sum`.
+
+10. **Outputting the Result**  
+   ```
+   cout << "The sum of the given values: " << sum << endl;
+   ```
+   This line outputs the result to the console, displaying the sum in a user-friendly format.
+
+11. **Ending the Program**  
+   ```
+   return 0;
+   ```
+   This indicates that the program has executed successfully, signaling the end of the `main` function.
+
+```mermaid
+flowchart TD
+    A([Start]) --> B{Check Condition}
+    B -- Yes --> C[Execute Code A]
+    B -- No --> D[Execute Code B]
+    C --> E([End])
+    D --> E
+```
