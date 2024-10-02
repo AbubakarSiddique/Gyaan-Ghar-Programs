@@ -1,8 +1,9 @@
-// hello_world.cpp
+// WAP to print a string "Hello World!"
 #include <iostream>
 using namespace std;
 
-int main() {
-    cout << "Hello, World!" << endl;
+int main()
+{
+    cout << "He110, World!";
     return 0;
 }
