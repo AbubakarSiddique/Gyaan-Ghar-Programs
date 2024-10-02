@@ -2,6 +2,6 @@
 
 This folder contains basic programs written in C++. Each program is designed to help beginners understand fundamental C++ concepts.
 
-## Programs
+## Table of Programs
 
-- `hello_world.cpp`: Prints "Hello, World!" to the console.
+1. [Hello World](hello_world.md)
