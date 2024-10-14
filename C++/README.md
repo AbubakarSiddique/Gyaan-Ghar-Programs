@@ -13,5 +13,5 @@ This folder contains basic programs written in C++. Each program is designed to 
 1. [Area of a Circle]
 1. [Average of Two Numbers](average_of_two_numbers.md)
 1. [Average of Three Numbers](average_of_three_numbers.md)
-1. [Substraction of Two Values]
-1. [Multiplication of Two Values]
+1. [Substraction of Two Values](subtration_of_two_numbers.md)
+1. [Multiplication of Two Values](multiplication_of_two_numbers.md)
